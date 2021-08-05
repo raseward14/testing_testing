@@ -1,0 +1,75 @@
+/***Style specs:***/
+
+/**body:**/
+body {
+    /*Be sure to zero out the body margins and padding so the page is flush to the top of the page:*/
+    margin: 0;
+    padding: 0;
+    /*The background color is `#efeee7`.*/
+    background-color: #efeee7;
+    /*The font used is `Georgia,"Times New Roman",Times,serif;`.*/
+    font-family: Georgia,"Times New Roman",Times,serif;
+    /*The font color is `#333333`.*/
+    color: #333333;
+    /* Adjust the line height so it is 1.5 times the size of the font. */
+    /* Unitless values: use this number multiplied
+    by the element's font size */
+    line-height: 1.5;
+}
+
+/**header:**/
+header {
+    /*The background color is `#333333`.*/
+    background-color: #333333;
+}
+
+/**h1:**/
+h1 {
+    /*The font color is `#eee`.*/
+    color: #eee;
+    /*The font size is `28px`.*/
+    font-size: 28px;
+    /*Look at the example on the screen, and eyeball the padding and/or margins and positioning of the text.*/
+    padding: 15px;
+
+    text-align: center;
+}
+
+/**h2:**/
+h2 {
+    /*The font size is `24px`*/
+    font-size: 24px;
+}
+
+.container {
+    /* Make the container have a width of 1024 pixels, and center it. You do this using `margin: 0 auto;`. */
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio, #contact-info, #bio-image {
+    /* Make `#main-bio`, `#contact-info`, `#bio-image` all `float: left`. */
+    float: left;
+}
+
+#bio-image {
+    /* Make the `#bio-image` have a width of 200 pixels. */
+    width: 200px;
+    /* Add margins to the image so there is distance between it and the bio text. */
+    margin: 15px;
+}
+/* Be sure to include `alt` text in all images */
+
+#main-bio {
+    /* `#main-bio` should have a width of `70%`. */
+    width: 70%;
+}
+
+#contact-info {
+    /* `#contact-info` should have a width of `30%`. */
+    width: 30%;
+}
+
+/* If you forgot how to write the CSS properties, you can reference all CSS properties here <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference> */
+
+/* Stage, commit, and push this new file to Github. */
